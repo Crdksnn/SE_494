@@ -1,0 +1,14 @@
+.slot_container {
+    width: 99%;
+    flex-shrink: 0;
+    height: 50px;
+    flex-direction: row;
+    background-color: rgb(241, 126, 126);
+}
+
+.slot_label {
+    -unity-text-align: middle-center;
+    font-size: 25px;
+    flex-grow: 1;
+    flex-basis: 20%;
+}

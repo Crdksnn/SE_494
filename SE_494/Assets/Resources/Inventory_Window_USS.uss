@@ -1,0 +1,86 @@
+.inventory_window {
+    width: 500px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-left-color: rgb(255, 180, 0);
+    border-right-color: rgb(255, 180, 0);
+    border-top-color: rgb(255, 180, 0);
+    border-bottom-color: rgb(255, 180, 0);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+.inventory_window_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.up_container {
+    width: 100%;
+    height: 7%;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 180, 0);
+}
+
+.scroll_container {
+    width: 100%;
+    height: 93%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.scroll_window {
+    width: 100%;
+    height: 100%;
+}
+
+.inventory_text {
+    font-size: 30px;
+    -unity-font-size: normal;
+}
+
+.unity-scroller--vertical {
+    display: flex;
+}
+
+.scroll_view {
+    width: 100%;
+    height: 100%;
+}
+
+#unity-content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.unity-button {
+}
+
+.unity-text-element {
+}
+
+#unity-content-and-vertical-scroll-container {
+    flex-direction: row;
+}
+
+.money{
+    position:absolute;
+    left:1760px;
+    top:98px;
+    color:white;
+    font-size:30px;
+}

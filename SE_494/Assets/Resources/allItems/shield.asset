@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bc1ef7879d7cc4a8644bcb7ce31ee6, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  item_Name: Shield
+  item_Type: weapon
+  img_path: img/shield
+  item_Price: 55
+  itemAmount: 5
+  demand: 3
+  supply: 3
+  ininventory: 3
+  inshop: 3

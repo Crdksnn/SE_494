@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/Inventory_Window_USS.uss?fileID=7433441132597879392&amp;guid=c89f747ce4b696441a68df9c6b2b2945&amp;type=3#Inventory_Window_USS" />
+    <Style src="project://database/Assets/Resources/Inventory_Slot.uss?fileID=7433441132597879392&amp;guid=4cf0d1f997046974e8fe5cf97483b61c&amp;type=3#Inventory_Slot" />
+    <Style src="project://database/Assets/Resources/NotebookItems.uss?fileID=7433441132597879392&amp;guid=13c33d485fefd4f488c2596068e59a39&amp;type=3#NotebookItems" />
+    <ui:Label text="Transaction Complete" display-tooltip-when-elided="true" name="Correct" style="position: absolute; width: 300px; height: 100px; -unity-text-align: middle-center; top: 621px; left: 795px; font-size: 28px; color: rgb(82, 255, 0); visibility: visible; display: none;" />
+    <ui:Label text="Not Enough Amount" display-tooltip-when-elided="true" name="Fail" style="position: absolute; width: 300px; height: 100px; -unity-text-align: middle-center; top: 621px; left: 795px; font-size: 28px; color: rgb(255, 0, 0); display: none;" />
+</ui:UXML>

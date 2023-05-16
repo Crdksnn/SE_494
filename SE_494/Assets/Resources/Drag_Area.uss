@@ -1,0 +1,8 @@
+.dragArea{
+	position: absolute;
+	display:none;
+	flex-grow:1;
+	flex-shrink:0;
+	width:75 px;
+	height:64 px;
+}

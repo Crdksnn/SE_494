@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Inventory.uss?fileID=7433441132597879392&amp;guid=4cf0d1f997046974e8fe5cf97483b61c&amp;type=3#Inventory" />
+    <ui:VisualElement name="Inventory" style="flex-grow: 0; width: 600px; height: 800px; position: absolute; top: 108px; left: 548px; background-color: rgb(205, 207, 173);">
+        <ui:Label text="Inventory" display-tooltip-when-elided="true" name="Name" style="-unity-text-align: middle-center; font-size: 35px; height: 5%; -unity-font-style: bold;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>
